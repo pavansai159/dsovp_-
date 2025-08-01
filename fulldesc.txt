@@ -1,0 +1,44 @@
+
+
+This is a simple web-based calculator that allows users to perform basic arithmetic operations such as:
+
+* Addition (`+`)
+* Subtraction (`-`)
+* Multiplication (`*`)
+* Division (`/`)
+
+It’s built using only front-end technologies: **HTML**, **CSS**, and **JavaScript**, and runs entirely in the browser without any backend.
+
+**Technologies Used**
+
+* **HTML** – Provides the structure of the calculator (buttons, display screen).
+* **CSS** – Styles the layout, buttons, and overall look of the calculator.
+* **JavaScript** – Adds functionality: responds to button clicks, processes expressions, and updates the display.
+
+---
+
+**Key Features**
+
+* Interactive number and operator buttons
+* `=` button to calculate and display result
+* `C` (clear) button to reset the input
+* Basic input validation using `try-catch` to handle errors like division by zero or invalid expressions
+
+**User Interface**
+
+* A display box shows the current input or result
+* A grid of buttons for digits (0–9), operators (`+`, `-`, `*`, `/`), decimal (`.`), equals (`=`), and clear (`C`)
+* Responsive and user-friendly layout styled with CSS
+
+**How It Works**
+
+1. When a user clicks a number or operator button, JavaScript appends it to the display.
+2. Clicking `=` triggers the `eval()` function to calculate the result.
+3. If the expression is valid, the result is shown. If not, it shows `"Error"`.
+4. Clicking `C` clears the display.
+
+ **Ideal For**
+
+* Beginners learning HTML, CSS, and JavaScript
+* Understanding DOM manipulation and event handling
+* Creating and deploying a basic functional web app
