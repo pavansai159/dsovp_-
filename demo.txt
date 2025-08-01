@@ -1,0 +1,1 @@
+Here we made use of the html,css and javasript to build an simple calculator 
